@@ -1,0 +1,157 @@
+<script language = "javascript" type = "text/javascript">
+
+
+<!--
+            var num = window.location.search;
+
+var subname = window.location.pathname;
+
+//Edit number between quotes to match the s=  number at the end of the subject page URL in LibGuides
+//Edit the link to be your Primo base URL. Adjust subjects to match Primo URL.
+
+ if (num.indexOf("173660") >= 0)
+{document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/search?query=any,contains,African%20Americans%20or%20Africa&tab=LibraryCatalog&search_scope=MyInstitution&vid=01CARLI_EIU:CARLI_EIU&facet=rtype,include,journals&lang=en&offset=0' target='new'>African and African Diaspora Journals</a>");}
+
+
+ if (subname.indexOf("biology") >= 0)
+{
+document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Health_Biological_Sciences%E2%94%80Biology' target='new'>Biological Sciences Journals</a>");}
+
+
+ if (num.indexOf("165207") >= 0)
+{
+document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Business_Economics' target='new'>Business and Economics</a>");}
+
+ if (num.indexOf("165205") >= 0)
+{
+document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Arts_Architecture_Applied_Arts' target='new'>Art, Architecture, and Applied Arts</a>");}
+
+ if (subname.indexOf("chemistry") >= 0)
+{
+document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Physical_Sciences_Mathematics%E2%94%80Chemistry' target='new'>Physical Sciences, Mathematics and Chemistry Journals</a>");}
+
+
+
+ if (num.indexOf("186992") >= 0)
+{
+document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/search?query=any,contains,childrens%20literature&tab=LibraryCatalog&search_scope=MyInstitution&vid=01CARLI_EIU:CARLI_EIU&facet=rtype,include,journals&offset=0' target='new'>Children's Literature</a>");}
+
+ if (subname.indexOf("communication") >= 0)
+{
+document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Journalism_Communications' target='new'>Journalism and Communications Journals</a>");}
+
+if (subname.indexOf("cds") >= 0)
+{
+document.write("<ul><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences%E2%94%80Social_Welfare_Social_Work%E2%94%80Disabilities' target='new'>Disabilities Journal List</a></li><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Health_Biological_Sciences%E2%94%80Medicine%E2%94%80Otorhinolaryngology' target='new'>Otorhinolaryngology Journal List</a></li></ul>");}
+
+ if (num.indexOf("165211") >= 0)
+{
+document.write("<ul><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences%E2%94%80Social_Welfare_Social_Work%E2%94%80Disabilities' target='new'>Disabilities</a></li><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences%E2%94%80Sociology_Social_History%E2%94%80Family_Marriage_Sex_Roles' target='new'>Family, Marriage, and Sex Roles</a></li> <li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences%E2%94%80Psychology' target='new'>Psychology</a></li> <li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Health_Biological_Sciences%E2%94%80Psychiatry' target='new'>Psychiatry</a></li><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences%E2%94%80Social_Welfare_Social_Work' target='new'>Social Welfare & Social Work</a></li></ul>");}
+
+
+ if (num.indexOf("186960") >= 0)
+{
+document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences%E2%94%80Social_Welfare_Social_Work%E2%94%80Criminology_Penology_Juvenile_Delinquency' target='new'>Criminology, Penology & Juvenile Delinquency</a>");}
+
+ if (num.indexOf("165212") >= 0)
+{
+document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?vid=01CARLI_EIU:CARLI_EIU' target='new'>Business and Economics</a>");}
+
+ if (num.indexOf("165213") >= 0)
+{
+document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences%E2%94%80Education' target='new'>Education</a>");}
+
+ if (num.indexOf("186961") >= 0)
+{
+document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Engineering_Applied_Sciences%E2%94%80Engineering' target='new'>Engineering Journals</a>");}
+
+
+ if (num.indexOf("176122") >= 0)
+{
+document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Languages_Literatures%E2%94%80English' target='new'>English</a>");}
+
+ if (num.indexOf("178529") >= 0)
+{
+document.write("<ul><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?vid=01CARLI_EIU:CARLI_EIU' target='new'>Business and Economics</a></li><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Health_Biological_Sciences%E2%94%80Diet_Clinical_Nutrition' target='new'>Diet and Clinical Nutrition</a></li></ul>");}
+
+if (subname.indexOf("gender") >= 0)
+{
+document.write("<ul><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences%E2%94%80Sociology_Social_History%E2%94%80Communities_Races' target='new'>Communities - Races</a></li><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences%E2%94%80Sociology_Social_History%E2%94%80Family_Marriage_Sex_Roles' target='new'>Family, Marriage & Sex Roles</a></li></ul>");}
+
+if (subname.indexOf("geography") >= 0)
+{
+document.write("<ul><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences%E2%94%80Geography' target='new'>Geography Journals</a></li></ul>");}
+
+
+if (subname.indexOf("geology") >= 0)
+{
+document.write("<ul><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Earth_Environmental_Sciences' target='new'>Earth and Environmental Sciences</a></li></ul>");}
+
+if (subname.indexOf("law") >= 0)
+{
+document.write("<ul><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Law_Politics_Government' target='new'>Law, Politics, and Government</a></li></ul>");}
+
+if (subname.indexOf("health") >= 0)
+{
+document.write("<ul><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Health_Biological_Sciences' target='new'>Health and Biological Sciences</a></li></ul>");}
+
+ if (num.indexOf("165220") >= 0)
+{
+document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,History_Archaeology' target='new'>History & Archaeology</a>");}
+
+ if (subname.indexOf("fcs") >= 0)
+{
+document.write("<ul><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?vid=01CARLI_EIU:CARLI_EIU' target='new'>Business and Economics</a></li><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Health_Biological_Sciences%E2%94%80Diet_Clinical_Nutrition' target='new'>Diet and Clinical Nutrition</a></li></ul>");}
+
+
+ if (subname.indexOf("journalism") >= 0)
+{
+document.write("<ul><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Journalism_Communications%E2%94%80Journalism' target='new'>Journalism</a></li></ul>");}
+
+ if (subname.indexOf("literature") >= 0)
+{
+document.write("<ul><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Languages_Literatures' target='new'>Languages and Literatures</a></li><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Music_Dance_Drama_Film%E2%94%80Drama' target='new'>Drama</a></li></ul>");}
+
+ if (subname.indexOf("math") >= 0)
+{
+document.write("<ul><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Engineering_Applied_Sciences%E2%94%80Applied_Mathematics' target='new'>Applied Mathematics</a></li><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Engineering_Applied_Sciences%E2%94%80Computer_Science ' target='new'>Commputer Science</a></li><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Physical_Sciences_Mathematics%E2%94%80Mathematics' target='new'>Mathematics</a></li><li><a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences%E2%94%80Statistics_General' target='new'>Statistics</a></li></ul>");}
+
+ if (num.indexOf("186954") >= 0)
+{document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Journalism_Communications' target='new'>Journalism and Communications</a>");}
+
+ if (num.indexOf("165226") >= 0)
+{document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Music_Dance_Drama_Film%E2%94%80Music' target='new'>Music</a>");}
+
+ if (num.indexOf("186927") >= 0)
+{document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/search?query=any,contains,newspaper&tab=LibraryCatalog&search_scope=MyInstitution&vid=01CARLI_EIU:CARLI_EIU&facet=rtype,include,newspapers&offset=0' target='new'>Newspapers</a>");}
+
+
+ if (subname.indexOf("nursing") >= 0)
+{document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Health_Biological_Sciences%E2%94%80Nursing' target='new'>Nursing</a>");}
+
+
+ if (subname.indexOf("philosophy") >= 0)
+{document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Philosophy_Religion' target='new'>Philsophy and Religion</a>");}
+
+ if (subname.indexOf("physics") >= 0)
+{document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Physical_Sciences_Mathematics%E2%94%80Physics' target='new'>Physics</a>");}
+
+ if (subname.indexOf("PoliticalScience") >= 0)
+{document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Law_Politics_Government ' target='new'>Law, Politics and Government</a>");}
+
+ if (num.indexOf("165231") >= 0)
+{document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences%E2%94%80Psychology' target='new'>Psychology</a>");}
+
+ if (subname.indexOf("SocialSciences") >= 0)
+{document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Social_Sciences' target='new'>Social Sciences</a>");}
+
+ if (num.indexOf("186952") >= 0)
+{document.write("Please refer to the guide for statistical information");}
+
+
+ if (subname.indexOf("theater") >= 0)
+{document.write("<a href='https://i-share-eiu.primo.exlibrisgroup.com/discovery/jsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=01CARLI_EIU:CARLI_EIU&journals=category,Music_Dance_Drama_Film%E2%94%80Drama' target='new'>Drama</a>");}
+
+         //-->
+
+</script>
